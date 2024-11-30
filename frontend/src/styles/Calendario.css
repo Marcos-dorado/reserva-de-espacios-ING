@@ -1,0 +1,37 @@
+.fc {
+    /* Estilos generales del calendario */
+    --fc-border-color: #ddd;
+    --fc-event-bg-color: #3788d8;
+    --fc-event-border-color: #2c6cb0;
+    --fc-event-text-color: #fff;
+    --fc-today-bg-color: rgba(55, 136, 216, 0.1);
+  }
+  
+  .fc .fc-timegrid-slot {
+    height: 40px; /* Altura de los slots de tiempo */
+  }
+  
+  .fc .fc-event {
+    padding: 2px 4px;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    margin: 1px 0;
+  }
+  
+  .fc .fc-timegrid-event {
+    min-height: 25px;
+  }
+  
+  .fc .fc-toolbar-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .fc .fc-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .fc .fc-day-today {
+    background-color: var(--fc-today-bg-color) 
+  }
